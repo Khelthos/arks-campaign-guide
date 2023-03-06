@@ -1,0 +1,74 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+@font-face {
+  font-family: "ITC Conduit";
+  src: url("fonts/Conduit\ ITC\ Regular.otf");
+  /* src: url('fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.woff') format('woff'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'); */
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Minion PRO";
+  src: url("fonts/MinionPro-Regular.otf");
+  /* src: url('fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.woff') format('woff'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'); */
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Novarese";
+  src: url("fonts/Novarese-Medium.otf");
+  /* src: url('fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.woff') format('woff'),
+      url('fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype'); */
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+:root {
+  --color: #3c3c3c;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  max-width: 52ch;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  border-radius: 0.3em;
+  background-color: var(--color);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
